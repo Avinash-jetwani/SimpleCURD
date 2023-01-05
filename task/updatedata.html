@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TASK</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<div class="container-update" id="container">
+		<div class="form-container">
+			<form id="register">
+				<h1>Update User Data</h1>
+				<input type="text" id="username" name="username" placeholder="User Name" required />
+				<input type="text" id="email" name="email" placeholder="Email" required />
+				<input type="hidden" id="user_id" />
+				<input type="phonenumber" id="phonenumber" name="phonenumber" placeholder="Phone Number" maxlength="11"
+					required />
+				<input type="age" id="age" name="age" placeholder="Age" maxlength="3" required />
+				<input type="address" id="address" name="address" placeholder="Address" required />
+				<input type="city" id="city" name="city" placeholder="City" required />
+				<input type="postcode" id="postcode" name="postcode" placeholder="Postcode" required />
+				<button>Update</button>
+			</form>
+		</div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+		integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="./config.js"></script>
+	<script src="./updatedata.js"></script>
+
+</body>
+
+</html>

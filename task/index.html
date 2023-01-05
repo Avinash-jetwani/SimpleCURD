@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TASK</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+	<div class="container" id="container">
+
+		<div class="form-container sign-up-container">
+
+
+			<form id="register">
+				<h1>Create Account</h1>
+
+
+				<input type="text" id="username" name="username" placeholder="User Name" required />
+				<input type="text" id="email" name="email" placeholder="Email" required />
+				<input type="password" id="password" name="password" placeholder="Password" required />
+
+				<input type="phonenumber" id="phonenumber" name="phonenumber" placeholder="Phone Number" maxlength="13"
+					required />
+				<input type="age" id="age" name="age" placeholder="Age" maxlength="3" required />
+				<input type="address" id="address" name="address" placeholder="Address" required />
+				<input type="city" id="city" name="city" placeholder="City" required />
+				<input type="postcode" id="postcode" name="postcode" placeholder="Postcode" required />
+				<button>Sign Up</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form id="login">
+				<h1>Sign in</h1>
+				<input type="email" id="email_login" name="email_login" placeholder="Email" />
+				<input type="password" id="password_login" name="password_login" placeholder="Password" />
+				<button>Sign In</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Friend!</h1>
+					<p>Enter your personal details and start journey with us</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+		integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="./config.js"></script>
+		<script src="./script.js"></script>
+	<script src="./login.js"></script>
+
+
+
+</body>
+
+</html>
