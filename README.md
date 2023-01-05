@@ -27,7 +27,7 @@ Now you can run the Simple CURD task
 
 ### VALIDATIONS
 
-Validations are performed on Sign Up, Sign In an dUpdate. 
+Validations are performed on Sign Up, Sign In and Update. 
 
 For details check WorkFlow.pdf
 
